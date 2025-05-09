@@ -30,7 +30,7 @@ const Seaweed = () => {
                     bottom: -100,
                   }}
                   animate={{
-                    y: [0, -7000],
+                    y: [0, -9000],
                     x: [0, Math.sin(bubble.id) * 90],
                   }}
                   transition={{
