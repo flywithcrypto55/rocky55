@@ -108,7 +108,7 @@ const characters=[
                   {
                     name: "SpongeBob SquarePants",
                     role: "Fry Cook at the Krusty Krab",
-                    color: "bg-red-400",
+                    color: "bg-yellow-400",
                     description: "An optimistic sea sponge who works as a fry cook at the Krusty Krab.",
                     imgPath: "/images/bob/logo.png",
                   },
@@ -129,7 +129,7 @@ const characters=[
                   {
                     name: "Mr. Krabs",
                     role: "Owner of the Krusty Krab",
-                    color: "bg-yellow-400",
+                    color: "bg-red-400",
                     description: "A money-obsessed crab who owns the Krusty Krab restaurant.",
                     imgPath: "/images/bob/krab.png",
                   },
