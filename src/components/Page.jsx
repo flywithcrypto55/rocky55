@@ -9,6 +9,7 @@ import Header from './Header';
 import Roadmap from './Roadmap';
 import Locations from './Locations';
 import MiniGame from './MiniGame';
+import Footer from './Footer';
 
 const Page = () => {
 
@@ -20,6 +21,7 @@ const Page = () => {
         <Locations/>
         <MiniGame/>
         <Roadmap/>
+        <Footer/>
     </main>
   )
 }

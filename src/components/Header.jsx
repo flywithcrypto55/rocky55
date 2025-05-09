@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion"
+import { BarChart, X } from 'lucide-react'
 const Header = () => {
   return (
     <div>
@@ -43,6 +44,29 @@ const Header = () => {
                   <span className="absolute -bottom-1 left-0 h-0.5 w-0 bg-yellow-300 transition-all duration-300 hover:w-full"></span>
                 </a>
               ))}
+             
+             <div className="flex items-center gap-4">
+                <a
+                  href="https://dexscreener.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center rounded-full bg-white/10 p-2 text-white transition-all duration-300 hover:bg-white/20 hover:text-yellow-300"
+                  aria-label="Dex Screener"
+                >
+                  <BarChart className="h-5 w-5" />
+                </a>
+                <a
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center rounded-full bg-white/10 p-2 text-white transition-all duration-300 hover:bg-white/20 hover:text-yellow-300"
+                  aria-label="Twitter"
+                >
+                  <X className="h-5 w-5" />
+                </a>
+              </div>
+
+
               <button className="rounded-full bg-yellow-400 px-6 py-2 font-bold text-blue-800 transition-all duration-300 hover:bg-yellow-300 hover:shadow-lg hover:shadow-yellow-400/50">
                 Play Now
               </button>
