@@ -69,98 +69,72 @@ const roadmapItems = [
   {
     title: "Jellyfish Fields Expedition",
     description: "Explore the mysterious Jellyfish Fields with SpongeBob and Patrick",
-    // icon: <Waves className="h-6 w-6" />,
+    //  icon: <Waves className="h-6 w-6" />,
+    icon: "icon",
     color: "bg-pink-400",
   },
   {
     title: "Boating School Graduation",
     description: "Help SpongeBob finally pass his boating exam at Mrs. Puff's Boating School",
     // icon: <Anchor className="h-6 w-6" />,
+    icon: "Anchor",
     color: "bg-blue-400",
   },
   {
     title: "Bikini Bottom Tour",
     description: "Visit all the iconic locations in Bikini Bottom",
     // icon: <Compass className="h-6 w-6" />,
+    icon: "Compass",
     color: "bg-green-400",
   },
   {
     title: "Annual Jellyfishing Competition",
     description: "Participate in the annual Jellyfishing competition with SpongeBob",
     // icon: <Calendar className="h-6 w-6" />,
+    icon: "Calendar",
     color: "bg-purple-400",
   },
   {
     title: "Shell City Adventure",
     description: "Embark on an epic journey to the dangerous Shell City",
     // icon: <Shell className="h-6 w-6" />,
+    icon: "Shell",
     color: "bg-orange-400",
   },
 ]
 
-// const testimonials = [
-//   {
-//     name: "Esther Howard",
-//     mentions: "@estherhoward",
-//     review:
-//       "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-//     imgPath: "/images/client1.png",
-//   },
-//   {
-//     name: "Wade Warren",
-//     mentions: "@wadewarren",
-//     review:
-//       "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-//     imgPath: "/images/client3.png",
-//   },
-//   {
-//     name: "Guy Hawkins",
-//     mentions: "@guyhawkins",
-//     review:
-//       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-//     imgPath: "/images/client2.png",
-//   },
-//   {
-//     name: "Marvin McKinney",
-//     mentions: "@marvinmckinney",
-//     review:
-//       "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-//     imgPath: "/images/client5.png",
-//   },
-//   {
-//     name: "Floyd Miles",
-//     mentions: "@floydmiles",
-//     review:
-//       "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-//     imgPath: "/images/client4.png",
-//   },
-//   {
-//     name: "Albert Flores",
-//     mentions: "@albertflores",
-//     review:
-//       "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-//     imgPath: "/images/client6.png",
-//   },
-// ];
 
-// const socialImgs = [
-//   {
-//     name: "insta",
-//     imgPath: "/images/insta.png",
-//   },
-//   {
-//     name: "fb",
-//     imgPath: "/images/fb.png",
-//   },
-//   {
-//     name: "x",
-//     imgPath: "/images/x.png",
-//   },
-//   {
-//     name: "linkedin",
-//     imgPath: "/images/linkedin.png",
-//   },
-// ];
+const characters=[
+                  {
+                    name: "SpongeBob SquarePants",
+                    role: "Fry Cook at the Krusty Krab",
+                    color: "bg-red-400",
+                    description: "An optimistic sea sponge who works as a fry cook at the Krusty Krab.",
+                    imgPath: "/images/bob/logo.png",
+                  },
+                  {
+                    name: "Patrick Star",
+                    role: "SpongeBob's Best Friend",
+                    color: "bg-orange-400",
+                    description: "A friendly but dim-witted pink starfish who lives under a rock.",
+                    imgPath: "/images/bob/patrick.png",
+                  },
+                  {
+                    name: "Squidward Tentacles",
+                    role: "Krusty Krab Cashier",
+                    color: "bg-pink-400",
+                    description: "SpongeBob's grumpy neighbor and coworker who loves clarinet and art.",
+                    imgPath: "/images/bob/squid.png",
+                  },
+                  {
+                    name: "Mr. Krabs",
+                    role: "Owner of the Krusty Krab",
+                    color: "bg-yellow-400",
+                    description: "A money-obsessed crab who owns the Krusty Krab restaurant.",
+                    imgPath: "/images/bob/krab.png",
+                  },
+                ]
+
 
 const fighters =[
   {
@@ -193,75 +167,45 @@ const fighters =[
       description:"The sea belongs to none, except the mighty Zeus!🌊🐎",
       imgUrl:"/images/fish/po6.jfif",
   },
-  // {
-  //     title: "Fred",
-  //     description:"He's not lost. He's just vibing with friends. 🐟",
-  //     imgUrl:"/images/fish/p7.jpg",
-  // },
-  // {
-  //     title: "Fred",
-  //     description:"Stress? Never met her. 🐟",
-  //     imgUrl:"/images/fish/p9.jpg",
-  // },
-  // {
-  //     title: "Fred",
-  //     description:"Tides gonna tide. I'm just sipping 🐟",
-  //     imgUrl:"/images/fish/p2.jpg",
-  // }
-  // ,
-  // {
-  //     title: "Fred",
-  //     description:"Gurds of the Hibernia",
-  //     imgUrl:"/images/fish/drink.jpg",
-  // }
-  // ,
-  // {
-  //     title: "Fred",
-  //     description:"Always Fishing",
-  //     imgUrl:"/images/fish/fred4.jpg",
-  // }
-  // ,
-  // {
-  //     title: "Fred",
-  //     description:"Always Fishing",
-  //     imgUrl:"/images/fish/fred3.jpg",
-  // }
-  // ,
-  // {
-  //     title: "Agnar's",
-  //     description:"Gurds of the Hibernia",
-  //     imgUrl:"/images/fish/fred4.jpg",
-  // }
-  // ,
-  // {
-  //     title: "Agnar's",
-  //     description:"Gurds of the Hibernia",
-  //     imgUrl:"/images/fish/fred5.jpg",
-  // }
-  // ,
-  // {
-  //     title: "Agnar's",
-  //     description:"Gurds of the Hibernia",
-  //     imgUrl:"/images/fish/RockOut.jpg",
-  // }
-  // ,
-  // {
-  //     title: "Agnar's",
-  //     description:"Gurds of the Hibernia",
-  //     imgUrl:"/images/fish/fred7.jpg",
-  // }
-  // ,
-  // {
-  //     title: "Agnar's",
-  //     description:"Gurds of the Hibernia",
-  //     imgUrl:"/images/fish/Fred8.jpg",
-  // }
-  // ,
-  // {
-  //     title: "Agnar's",
-  //     description:"Gurds of the Hibernia",
-  //     imgUrl:"/images/fish/fred6.jpg",
-  // }
+]
+
+const bikini=[
+  {
+    name: "The Krusty Krab",
+    description: "Home of the famous Krabby Patty and SpongeBob's workplace.",
+    color: "from-red-500 to-red-700",
+    imgUrl: "/images/bob/krusty.jfif",
+  },
+  {
+    name: "SpongeBob's Pineapple House",
+    description: "A pineapple under the sea where SpongeBob lives with Gary.",
+    color: "from-yellow-400 to-yellow-600",
+    imgUrl: "/images/bob/pineapple.jfif",
+  },
+  {
+    name: "Jellyfish Fields",
+    description: "A beautiful meadow where SpongeBob and Patrick go jellyfishing.",
+    color: "from-pink-400 to-purple-600",
+    imgUrl: "/images/bob/jellyfish.jfif",
+  },
+  {
+    name: "Sandy's Treedome",
+    description: "An air-filled dome where Sandy Cheeks lives and practices karate.",
+    color: "from-green-400 to-green-600",
+    imgUrl: "/images/bob/sandy.jfif",
+  },
+  {
+    name: "Mrs. Puff's Boating School",
+    description: "Where SpongeBob repeatedly fails to get his boating license.",
+    color: "from-blue-400 to-blue-600",
+    imgUrl: "/images/bob/boating2.jfif",
+  },
+  {
+    name: "Goo Lagoon",
+    description: "The underwater beach where everyone goes to relax and have fun.",
+    color: "from-amber-400 to-amber-600",
+    imgUrl: "/images/bob/lagoon.jfif",
+  },
 ]
 
 export {
@@ -271,6 +215,8 @@ export {
    expLogos,
    fighters,
    roadmapItems,
+   characters,
+   bikini,
   // testimonials,
   // socialImgs,
   // techStackIcons,
