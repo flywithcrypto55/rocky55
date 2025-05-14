@@ -1,7 +1,9 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import { BarChart, X } from 'lucide-react'
+import { useNavigate } from 'react-router-dom';
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <div>
               {/* Enhanced Header */}
@@ -67,7 +69,7 @@ const Header = () => {
               </div>
 
 
-              <button className="rounded-full bg-yellow-400 px-6 py-2 font-bold text-blue-800 transition-all duration-300 hover:bg-yellow-300 hover:shadow-lg hover:shadow-yellow-400/50">
+              <button onClick={() => {navigate('/game')}} className="rounded-full bg-yellow-400 px-6 py-2 font-bold text-blue-800 transition-all duration-300 hover:bg-yellow-300 hover:shadow-lg hover:shadow-yellow-400/50">
                 Play Now
               </button>
             </motion.nav>
