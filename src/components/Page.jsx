@@ -10,6 +10,7 @@ import Roadmap from './Roadmap';
 import Locations from './Locations';
 import MiniGame from './MiniGame';
 import Footer from './Footer';
+import CopyToClipboard from './CopyToClipboard';
 
 const Page = () => {
 
@@ -18,6 +19,7 @@ const Page = () => {
         <Seaweed/>
         <Header/>
         <Characters/>
+        <CopyToClipboard/>
         <Locations/>
         <MiniGame/>
         <Roadmap/>

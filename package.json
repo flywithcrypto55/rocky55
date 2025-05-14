@@ -12,11 +12,14 @@
   "dependencies": {
     "@react-three/drei": "^9.92.7",
     "@react-three/fiber": "^8.15.12",
+    "@react-three/rapier": "^1.5.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.10.1",
     "lucide-react": "^0.454.0",
+    "playroomkit": "^0.0.87",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^7.6.0",
     "tailwind-merge": "^2.6.0",
     "three": "^0.160.0"
   },

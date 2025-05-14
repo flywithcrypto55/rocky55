@@ -1,17 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import './index.css'
 import Page from './components/Page'
-import Characters from './components/Characters'
+import GameApp from "./game/GameApp";
+import { BrowserRouter as Router, Routes,Route } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <Page/>
+      <Router>
+    <Routes>
+      <Route path="/" element={<Page/>} />
+       <Route path="/game" element={<GameApp/>} /> 
+
+      {/* <Route path="/home" element={<AppHome/>} /> */}
+    </Routes>
+</Router>
     </>
   )
 }
