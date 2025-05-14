@@ -109,7 +109,7 @@ const MiniGame = () => {
                 {/* Play Button */}
                 <div className="flex justify-center">
                   <button className="relative overflow-hidden rounded-full bg-yellow-400 px-6 py-2 font-bold text-blue-800 transition-all duration-300 hover:bg-yellow-300 hover:shadow-lg hover:shadow-yellow-400/50">
-                    <span className="relative z-10">Play Now</span>
+                    <span className="relative z-10">Coming soon...</span>
                     <span className="absolute inset-0 -translate-x-full bg-white/30 transition-transform duration-300 group-hover:translate-x-0"></span>
                   </button>
                 </div>

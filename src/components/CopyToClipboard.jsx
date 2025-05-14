@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const CopyToClipboard = () => {
   const [copied, setCopied] = useState(false);
-  const textToCopy = "CA-Coming Soon..";
+  const textToCopy = "Coming Soon..";
 
   const handleCopy = async () => {
     try {
@@ -16,7 +16,7 @@ const CopyToClipboard = () => {
 
   return (
     <div className='flex items-center justify-center gap-2 p-2'>
-      <span className='text-xs font-bold bg-black bg-clip-text text-transparent text-center'>{textToCopy}</span>
+      <span className='text-xs font-bold bg-black bg-clip-text text-transparent text-center'>CA-{textToCopy}</span>
       <button onClick={handleCopy} style={{ background: 'none', border: 'none', cursor: 'pointer' }} aria-label="Copy">
         {copied ? (
           // ✅ Checkmark icon

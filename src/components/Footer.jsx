@@ -41,6 +41,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className='mx-auto px-6 py-2 text-white font-serif text-xs'>
+          Disclaimer: $bob is a community-driven memecoin created purely for entertainment. It does not offer financial returns, investment utility, or legal rights of any kind. Nothing stated is financial advice — always DYOR (Do Your Own Research). Participation is at your own risk.
+        </div>
       </footer>
     </div>
   )
