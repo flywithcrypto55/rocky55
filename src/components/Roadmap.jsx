@@ -20,7 +20,49 @@ const Roadmap = () => {
         </motion.div>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {roadmapItems.map((item, index) => (
+          { [
+            {
+              title: "Krabby Patty Secret Formula",
+              description: "Discover the secret ingredients of the famous Krabby Patty",
+              icon: <Fish className="h-6 w-6" />,
+              color: "bg-yellow-400",
+            },
+            {
+              title: "Jellyfish Fields Expedition",
+              description: "Explore the mysterious Jellyfish Fields with SpongeBob and Patrick",
+              icon: <Waves className="h-6 w-6" />,
+              
+              color: "bg-pink-400",
+            },
+            {
+              title: "Boating School Graduation",
+              description: "Help SpongeBob finally pass his boating exam at Mrs. Puff's Boating School",
+              icon: <Anchor className="h-6 w-6" />,
+            
+              color: "bg-blue-400",
+            },
+            {
+              title: "Bikini Bottom Tour",
+              description: "Visit all the iconic locations in Bikini Bottom",
+              icon: <Compass className="h-6 w-6" />,
+              
+              color: "bg-green-400",
+            },
+            {
+              title: "Annual Jellyfishing Competition",
+              description: "Participate in the annual Jellyfishing competition with SpongeBob",
+              icon: <Calendar className="h-6 w-6" />,
+              
+              color: "bg-purple-400",
+            },
+            {
+              title: "Shell City Adventure",
+              description: "Embark on an epic journey to the dangerous Shell City",
+              icon: <Shell className="h-6 w-6" />,
+              
+              color: "bg-orange-400",
+            },
+          ].map((item, index) => (
             <motion.div
               key={index}
               initial={{ y: 50, opacity: 0 }}
@@ -51,8 +93,8 @@ const Roadmap = () => {
                     "group-hover:scale-110",
                   )}
                 >
-                  {/* {item.icon} */}
-                  <Waves className="h-6 w-6" />
+                  {item.icon}
+                  {/* <Waves className="h-6 w-6" /> */}
       
                 </div>
                 <h3 className="mb-2 text-xl font-bold text-white transition-colors duration-300 group-hover:text-yellow-300">
