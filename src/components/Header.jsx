@@ -55,16 +55,17 @@ const Header = () => {
                   className="flex items-center justify-center rounded-full bg-white/10 p-2 text-white transition-all duration-300 hover:bg-white/20 hover:text-yellow-300"
                   aria-label="Dex Screener"
                 >
-                  <BarChart className="h-5 w-5" />
+                  {/* <BarChart className="h-5 w-5" /> */}
+                   <img className='size-5' src="/images/DexLogo.png" alt="dex" />
                 </a>
                 <a
-                  href="https://twitter.com"
+                  href="https://x.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center rounded-full bg-white/10 p-2 text-white transition-all duration-300 hover:bg-white/20 hover:text-yellow-300"
-                  aria-label="Twitter"
+                  aria-label="X"
                 >
-                  <X className="h-5 w-5" />
+                  <img className='size-5' src="/images/xLogo.png" alt="dex" />
                 </a>
               </div>
 

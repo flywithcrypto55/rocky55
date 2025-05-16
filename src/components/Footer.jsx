@@ -23,8 +23,8 @@ const Footer = () => {
                 aria-label="Dex Screener"
               >
 
-                <BarChart3 className="h-5 w-5" />
-                <span className="text-sm font-medium">Dex Screener</span>
+                <img className='size-5' src="/images/DexLogo.png" alt="dex" />
+                {/* <span className="text-sm font-medium">Dex Screener</span> */}
               </a>
               
               <a
@@ -34,8 +34,8 @@ const Footer = () => {
                 className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-white transition-all duration-300 hover:bg-white/20 hover:text-yellow-300"
                 aria-label="Twitter"
               >
-                <X className="h-5 w-5" />
-                <span className="text-sm font-medium">Twitter</span>
+                 <img className='size-5' src="/images/xLogo.png" alt="dex" />
+                {/* <span className="text-sm font-medium">Twitter</span> */}
               </a>
               
             </div>
