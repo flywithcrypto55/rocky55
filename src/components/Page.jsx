@@ -11,6 +11,7 @@ import Locations from './Locations';
 import MiniGame from './MiniGame';
 import Footer from './Footer';
 import CopyToClipboard from './CopyToClipboard';
+import FloatingIcons from './FloatingIcons';
 
 const Page = () => {
 
@@ -23,6 +24,7 @@ const Page = () => {
         <Locations/>
         <MiniGame/>
         <Roadmap/>
+        <FloatingIcons/>
         <Footer/>
     </main>
   )
