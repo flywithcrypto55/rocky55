@@ -11,7 +11,7 @@ const Footer = () => {
             <p className="text-white">© {new Date().getFullYear()} SpongeBob Adventure</p>
 
             <p className="text-[12px] py-2 text-white">
-                    Made with 💛 & passion by <a href="https://x.com/zeusgodgame" className="text-yellow-500 hover:underline">SpongebobFan</a> 
+                    Made with 💛 & passion by <a href="https://x.com/spongle4bob" className="text-yellow-500 hover:underline">SpongebobFan</a> 
                     </p>
 
             <div className="flex items-center gap-4">
