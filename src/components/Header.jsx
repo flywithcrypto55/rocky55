@@ -49,7 +49,7 @@ const Header = () => {
              
              <div className="flex items-center gap-4">
                 <a
-                  href="https://dexscreener.com"
+                  href="https://dexscreener.com/solana/48jg8os6fhddahz7j2ajru2tjrvdjn3mwuzjraskfcuy"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center rounded-full bg-white/10 p-2 text-white transition-all duration-300 hover:bg-white/20 hover:text-yellow-300"
@@ -59,7 +59,7 @@ const Header = () => {
                    <img className='size-5' src="/images/DexLogo.png" alt="dex" />
                 </a>
                 <a
-                  href="https://x.com"
+                  href="https://x.com/spongle4bob"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center rounded-full bg-white/10 p-2 text-white transition-all duration-300 hover:bg-white/20 hover:text-yellow-300"

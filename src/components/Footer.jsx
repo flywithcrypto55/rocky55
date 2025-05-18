@@ -16,7 +16,7 @@ const Footer = () => {
 
             <div className="flex items-center gap-4">
               <a
-                href="https://dexscreener.com"
+                href="https://dexscreener.com/solana/48jg8os6fhddahz7j2ajru2tjrvdjn3mwuzjraskfcuy"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-white transition-all duration-300 hover:bg-white/20 hover:text-yellow-300"
@@ -28,7 +28,7 @@ const Footer = () => {
               </a>
               
               <a
-                href="https://twitter.com"
+                href="https://x.com/spongle4bob"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-white transition-all duration-300 hover:bg-white/20 hover:text-yellow-300"
@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='mx-auto px-6 py-2 text-white font-serif text-xs'>
-          Disclaimer: $bob is a community-driven memecoin created purely for entertainment. It does not offer financial returns, investment utility, or legal rights of any kind. Nothing stated is financial advice — always DYOR (Do Your Own Research). Participation is at your own risk.
+          Disclaimer: $spongle is a community-driven memecoin created purely for entertainment. It does not offer financial returns, investment utility, or legal rights of any kind. Nothing stated is financial advice — always DYOR (Do Your Own Research). Participation is at your own risk.
         </div>
       </footer>
     </div>
