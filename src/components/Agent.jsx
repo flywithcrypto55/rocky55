@@ -25,7 +25,7 @@ const Agent = () => {
     try {
     const apiKey = process.env.REACT_APP_OPENROUTER_API_KEY;
      console.log("value is...");
-    console.log(process.env.REACT_APP_OPENROUTER_API_KEY);
+    console.log(REACT_APP_OPENROUTER_API_KEY);
       const response = await axios.post(
         "https://openrouter.ai/api/v1/chat/completions",
         {
