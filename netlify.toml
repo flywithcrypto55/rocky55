@@ -2,4 +2,3 @@
 from ="/*"
 to= "/index.html"
 status = 200
-environment = { REACT_APP_OPENROUTER_API_KEY = "Bearer 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" }
