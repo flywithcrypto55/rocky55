@@ -15,7 +15,7 @@ const Agent = () => {
     const userMessage = { role: "user", content: input };
     const updatedMessages = [...messages, userMessage];
     setMessages(updatedMessages);
-    
+
     // Clear input immediately for better user experience
     setInput("");
 
@@ -31,7 +31,7 @@ const Agent = () => {
         },
         {
           headers: {
-            "Authorization": `Bearer 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`, // Replace with actual API key
+            "Authorization": `Bearer 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`, // Replace with actual API key
             "Content-Type": "application/json"
           }
         }
@@ -69,10 +69,10 @@ const Agent = () => {
       </div>
 
       <form onSubmit={sendMessage} className="chat-input">
-        <input 
-          type="text" 
-          value={input} 
-          onChange={(e) => setInput(e.target.value)} 
+        <input
+          type="text"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
           placeholder="Ask Spongebob anything..."
           disabled={isLoading}
         />
