@@ -23,6 +23,12 @@ const Agent = () => {
     setErrorMessage(""); // Clear previous errors
 
     try {
+      const apiKey = process.env.REACT_APP_OPENROUTER_API_KEY;
+      console.log("API Key:", apiKey);
+
+      const apiKey1 = process.env.REACT_APP_NEW_VAR;
+      console.log("test Key:", apiKey1);
+
       const response = await axios.post(
         "https://openrouter.ai/api/v1/chat/completions",
         {
@@ -31,7 +37,7 @@ const Agent = () => {
         },
         {
           headers: {
-            "Authorization": `Bearer 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`, // Replace with actual API key
+            "Authorization": `Bearer sk-or-v1`, // Replace with actual API key
             "Content-Type": "application/json"
           }
         }
