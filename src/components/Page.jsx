@@ -19,13 +19,12 @@ const Page = () => {
   return (
     <main className="relative min-h-screen overflow-hidden bg-gradient-to-b from-blue-400 to-blue-600">  
         <Seaweed/>
-      
-       <Agent/>
         <Header/>
         <Characters/>
         <CopyToClipboard/>
         <Locations/>
         <MiniGame/>
+        <Agent/>
         <Roadmap/>
          
         <FloatingIcons/>
