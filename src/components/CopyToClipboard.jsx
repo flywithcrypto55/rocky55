@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const CopyToClipboard = () => {
   const [copied, setCopied] = useState(false);
-  const textToCopy = "coming soon";
+  const textToCopy = "YNV7T6mMXwzp3acDjaaocPKEdef8pw6j9KkYTEfmoon";
 
   const handleCopy = async () => {
     try {
