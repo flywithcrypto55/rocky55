@@ -20,7 +20,7 @@ export const UI = () => {
       </h2>
       )}
 
-        <a href="https://dexscreener.com/solana/48jg8os6fhddahz7j2ajru2tjrvdjn3mwuzjraskfcuy">
+        <a href="https://dexscreener.com/solana/FUsgsF7xrARatNrovUPzZAgaVLqrFxLykRb3ePRm9hsD">
         <img src="images/DexLogo.png" className="pointer-events-auto absolute top-8 right-20 w-4 h-4 transition duration-300 hover:scale-110 hover:rotate-5 hover:opacity-80" />
         </a>
 
