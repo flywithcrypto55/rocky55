@@ -7,8 +7,6 @@ import { BrowserRouter as Router, Routes,Route } from "react-router-dom";
 function App() {
   return (
     <>
-
-    <h1>env value is : {process.env.REACT_APP_NEW_VAR}</h1>
       <Router>
     <Routes>
       <Route path="/" element={<Page/>} />

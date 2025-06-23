@@ -24,7 +24,7 @@ const Page = () => {
         <CopyToClipboard/>
         <Locations/>
         <MiniGame/>
-        <Agent/>
+        {/* <Agent/> */}
         <Roadmap/>
          
         <FloatingIcons/>
