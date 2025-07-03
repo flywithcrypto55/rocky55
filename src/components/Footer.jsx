@@ -16,7 +16,7 @@ const Footer = () => {
 
             <div className="flex items-center gap-4">
               <a
-                href="https://moon.it/tokens/YNV7T6mMXwzp3acDjaaocPKEdef8pw6j9KkYTEfmoon"
+                href="https://moon.it/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-white transition-all duration-300 hover:bg-white/20 hover:text-yellow-300"
