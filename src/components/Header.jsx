@@ -49,7 +49,7 @@ const Header = () => {
              
              <div className="flex items-center gap-4">
                 <a
-                  href="https://dexscreener.com/solana/FUsgsF7xrARatNrovUPzZAgaVLqrFxLykRb3ePRm9hsD"
+                  href="https://dexscreener.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center rounded-full bg-white/10 p-2 text-white transition-all duration-300 hover:bg-white/20 hover:text-yellow-300"
