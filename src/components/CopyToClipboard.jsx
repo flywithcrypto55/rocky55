@@ -10,7 +10,7 @@ const CopyToClipboard = () => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch (err) {
-      console.error("Copy failed:", err);
+      console.error("Copy failed: ", err);
     }
   };
 
