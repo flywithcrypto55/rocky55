@@ -15,7 +15,6 @@ import FloatingIcons from './FloatingIcons';
 import Agent from './Agent';
 
 const Page = () => {
-
   return (
     <main className="relative min-h-screen overflow-hidden bg-gradient-to-b from-blue-400 to-blue-600">  
         <Seaweed/>
