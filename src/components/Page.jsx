@@ -21,7 +21,7 @@ const Page = () => {
         <Seaweed/>
         <Header/>
         <Characters/>
-        <CopyToClipboard/>
+        {/* <CopyToClipboard/> */}
         <Locations/>
         <MiniGame/>
         {/* <Agent/> */}
